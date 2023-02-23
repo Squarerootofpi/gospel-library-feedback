@@ -6,7 +6,7 @@ I have noticed this error happens at different times, and the response body is a
 <html><body><center><h1><b>Not Available</b></h1><i>This page is unavailable.  Error code: 2-1919</i></center></body></html>
 ```
 
-Other times that this error often occurs (or something like it) is when I copy and paste a url that has the improper &lang=eng rather than the ?lang=eng as a query parameter in the url. For some reason, urls like that in the gospel library note causes it to break the json.
+Other times that this error often occurs (or something like it) is when I copy and paste a url that has the improper &lang=eng rather than the ?lang=eng as a query parameter in the url. For some reason, urls like that in the gospel library note causes it to break the json. For example, copying and pasting the following url will also break the patch on a note for the same reason: https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/33?id=p4,p5,p6,p7,p8&lang=eng#p4 
 
 The request (in the form of a fetch) is shown below. I have hard refreshed my browser: google chrome, which is up to date with the latest version. 
 
